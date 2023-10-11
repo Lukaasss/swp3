@@ -1,5 +1,6 @@
 package at.lus.basic;
 
+import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,8 +9,8 @@ public class Würfelspiel {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int winsofPlayer = 0;
-        int winsofComp = 0;
+        int winsPlayer = 0;
+        int winsComp = 0;
         int draws = 0;
 
 
@@ -22,9 +23,9 @@ public class Würfelspiel {
             int randomComp = random.nextInt(6) + 1;
 
             if (randomPlayer > randomComp) {
-                winsofPlayer++;
+                winsPlayer++;
             } else if (randomPlayer < randomComp) {
-                winsofComp++;
+                winsComp++;
             } else {
                 draws++;
             }
@@ -35,7 +36,15 @@ public class Würfelspiel {
             }
 
             System.out.println("----------------------------------------------");
-            System.out.println("Player: " + winsofPlayer + " Computer " + winsofComp + " Draws: " + draws);
+            System.out.println("Player: " + winsPlayer + " Computer " + winsComp + " Draws: " + draws);
+
+            if(winsPlayer < winsComp)
+            {
+                System.out.println("Computer wins");
+            }else if(winsPlayer > winsComp)
+            {
+                System.out.println("Player wins");
+            }
 
     }
 
