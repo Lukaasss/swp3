@@ -5,12 +5,25 @@ import java.util.Scanner;
 public class Caesar_Verschluesselung {
     public static void main(String[] args){
 
-        String result = encrypt(3, "hallo");
-    }
+        Scanner scanner = new Scanner(System.in);
 
-    //Scanner scanner = new Scanner(System.in);
-    //String selection ="";
-    //selection = scanner.nextln();
+
+        String selection ="";
+
+        System.out.println("Geben sie ein Wort ein: ");
+
+        selection = scanner.nextLine();
+
+
+        int Zahl = 0;
+
+        System.out.println("Geben sie die Verschiebung an: ");
+
+        Zahl = scanner.nextInt();
+
+
+        String result = encrypt(Zahl, selection);
+    }
 
     public static String encrypt(int shift, String stringToEncrypt){
 
