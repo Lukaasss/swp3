@@ -1,4 +1,5 @@
 package at.lus.basic;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class TicTacToe {
@@ -45,7 +46,8 @@ public class TicTacToe {
 
             anzeigeSpielfeld(cboard);
 
-            System.out.println("Der erste Spieler mit dem X ist dran, wo möchten sie es hinsetzten");
+            System.out.println("Der erste Spieler mit dem X ist dran, wo möchten sie es hinsetzen");
+            System.out.print("->");
 
 
             do {
@@ -100,7 +102,8 @@ public class TicTacToe {
 
 
             }else {
-                System.out.println("Nun ist der Spieler mit dem O dran, wähle einen Ort aus, wo du deinen Kreis platzieren möchtest: ");
+                System.out.println("Der zweite Spieler mit dem O ist dran, wo möchten sie es hinsetzen ");
+                System.out.print("->");
                 do {
 
 
