@@ -31,7 +31,6 @@ public class Car {
         else{
             System.out.println("Turbo Boost activated");
         }
-
     }
 
     public void honk(int amountOfRepetitions){
@@ -40,9 +39,6 @@ public class Car {
 
             System.out.println("Tuuuuuuuuut");
         }
-
-
-
     }
 
     public void getRemainingRange(){
