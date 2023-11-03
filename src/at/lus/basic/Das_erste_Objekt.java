@@ -23,7 +23,7 @@ public class Das_erste_Objekt {
 
         System.out.println(c2.fuel);
         c2.drive();
-        c2.honk(5);
+        c2.honk(2);
         c2.turboboost();
         c2.brea();
         c2.drive();
