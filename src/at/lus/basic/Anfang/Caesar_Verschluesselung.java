@@ -1,4 +1,4 @@
-package at.lus.basic;
+package at.lus.basic.Anfang;
 import java.io.CharConversionException;
 import java.util.Scanner;
 

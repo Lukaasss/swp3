@@ -1,5 +1,4 @@
-package at.lus.basic;
-import at.lus.basic.Car;
+package at.lus.basic.Anfang;
 
 
 public class Das_erste_Objekt {

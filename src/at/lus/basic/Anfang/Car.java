@@ -1,4 +1,4 @@
-package at.lus.basic;
+package at.lus.basic.Anfang;
 
 public class Car {
 

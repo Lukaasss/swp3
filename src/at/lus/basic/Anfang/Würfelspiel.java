@@ -1,4 +1,4 @@
-package at.lus.basic;
+package at.lus.basic.Anfang;
 
 import java.sql.SQLOutput;
 import java.util.Random;
