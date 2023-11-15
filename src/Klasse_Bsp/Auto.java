@@ -1,4 +1,4 @@
-package at.lus.basic.oop;
+package Klasse_Bsp;
 
 import java.util.ArrayList;
 

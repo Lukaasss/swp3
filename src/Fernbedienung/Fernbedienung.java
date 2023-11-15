@@ -1,4 +1,4 @@
-package at.lus.basic.oop;
+package Fernbedienung;
 import java.util.ArrayList;
 
 public class Fernbedienung {
