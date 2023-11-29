@@ -1,4 +1,4 @@
-package Fernbedienung;
+package at.lus.basic.oop.Fernbedienung;
 import java.util.ArrayList;
 
 public class Fernbedienung {
@@ -34,7 +34,7 @@ public class Fernbedienung {
     public static void main(String[] args) {
         Fernbedienung fernbedienung = new Fernbedienung();
 
-        // Beispiel für den Gebrauch der Fernbedienung
+
         fernbedienung.turnOn();
         System.out.println("Ladestatus nach Einschalten: " + fernbedienung.getStatus());
 

@@ -1,4 +1,4 @@
-package Fernbedienung;
+package at.lus.basic.oop.Fernbedienung;
 
 public class Batterien {
     private double ladestatus;

@@ -1,4 +1,4 @@
-package Fernbedienung;
+package at.lus.basic.oop.Fernbedienung;
 
 public class TestIt_Fernbedienung {
         public static void main(String[] args) {

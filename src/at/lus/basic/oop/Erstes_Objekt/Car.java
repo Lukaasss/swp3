@@ -1,4 +1,4 @@
-package at.lus.basic.oop;
+package at.lus.basic.oop.Erstes_Objekt;
 
 public class Car {
 

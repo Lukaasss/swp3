@@ -1,4 +1,4 @@
-package Klasse_Bsp;
+package at.lus.basic.oop.Klasse_Bsp;
 
 public class Fahrrad {
 
