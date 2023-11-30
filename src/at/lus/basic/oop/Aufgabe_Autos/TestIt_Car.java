@@ -3,7 +3,6 @@ package at.lus.basic.oop.Aufgabe_Autos;
 import java.util.ArrayList;
 
 public class TestIt_Car {
-
     public static void main(String[] args) {
 
         Producer producer = new Producer("Honda", "Japan", 0.2);
