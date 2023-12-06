@@ -1,4 +1,4 @@
-package at.lus.basic.oop.faker;
+package at.lus.basic.faker;
 
 import com.github.javafaker.Faker;
 
@@ -26,7 +26,7 @@ public class MFaker {
                 String name = faker.name().fullName();
                 String firstName = faker.name().firstName();
                 String lastName = faker.name().lastName();
-                String email = faker.name().firstName() + "." + faker.name().lastName() + "@at.lus.basic.oop.faker.at";
+                String email = faker.name().firstName() + "." + faker.name().lastName() + "@at.lus.basic.faker.at";
                 String number = faker.phoneNumber().phoneNumber();
                 String rnumber = faker.number().digit();
                 String land = faker.country().capital();
@@ -45,9 +45,9 @@ public class MFaker {
 
                 /*
                 if(i == 100){
-                    myWriter.write("(" + i + ", '" + rnumber + "', '" + rnumber + "', " + pbool(at.lus.basic.oop.faker.number().numberBetween(1,3)) + ")," + "\n");
+                    myWriter.write("(" + i + ", '" + rnumber + "', '" + rnumber + "', " + pbool(at.lus.basic.faker.number().numberBetween(1,3)) + ")," + "\n");
                 }else{
-                    myWriter.write("(" + i + ", '" + rnumber + "', '" + rnumber + "', " + pbool(at.lus.basic.oop.faker.number().numberBetween(1,3)) + ")," + "\n");
+                    myWriter.write("(" + i + ", '" + rnumber + "', '" + rnumber + "', " + pbool(at.lus.basic.faker.number().numberBetween(1,3)) + ")," + "\n");
                 }
 
                  */

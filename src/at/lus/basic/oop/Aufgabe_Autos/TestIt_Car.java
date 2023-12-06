@@ -7,9 +7,13 @@ public class TestIt_Car {
 
         Producer producer = new Producer("Honda", "Japan", 0.2);
 
+        Producer producer1 = new Producer("Fiat", "Italien", 0.2);
+
         Engine engine = new Engine("Diesel", 300);
 
         Car car = new Car("Blau", 400, 25000,5,producer,engine);
+
+        Car car1 = new Car("Orange", 350, 30000, 3, producer1, engine);
 
 
 

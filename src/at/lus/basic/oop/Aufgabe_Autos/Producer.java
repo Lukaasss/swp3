@@ -12,13 +12,16 @@ public class Producer {
 
     private ArrayList<Car> aCars;
 
-    public Producer(String sName, String sOrigin, double dDiscount, ArrayList<Car> aCars) {
+    public Producer(String sName, String sOrigin, double dDiscount) {
         this.sName = sName;
         this.sOrigin = sOrigin;
         this.dDiscount = dDiscount;
-        this.aCars = aCars;
+        this.aCars = new ArrayList<>();
     }
 
+    public void addcar (Car car){
+        this.aCars.add(car);
+    }
     public double getDiscount() {
         return dDiscount;
     }
