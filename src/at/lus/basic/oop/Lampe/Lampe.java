@@ -1,4 +1,4 @@
-package Lampe;
+package at.lus.basic.oop.Lampe;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +13,10 @@ public class Lampe {
     public Lampe(String sName, double dAllPowerusage) {
         this.lightElements = new ArrayList<>();
         this.dAllPowerusage = dAllPowerusage;
+        this.sName = sName;
+    }
+
+    public void setsName(String sName) {
         this.sName = sName;
     }
 
@@ -48,4 +52,13 @@ public class Lampe {
             System.out.println(lightElements.getsName());
         }
     }
+
+    public ArrayList<LightElement> getaElements() {
+        return lightElements;
+    }
+
+    public void setaElement(ArrayList<LightElement> aElement) {
+        this.lightElements = lightElements;
+    }
+
 }

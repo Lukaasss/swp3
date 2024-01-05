@@ -1,4 +1,4 @@
-package Lampe;
+package at.lus.basic.oop.Lampe;
 
 public class LightElement {
 
